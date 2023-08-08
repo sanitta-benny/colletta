@@ -1,0 +1,669 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color: #fff;
+    position: relative;
+
+    background-image: url("https://images.getbento.com/accounts/4e84fa105d04379104b8a7f98f1f966d/media/images/11037Spaghetti_and_Meatballs_HeidiGeldhauser_3.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    background-attachment: fixed;
+    
+}
+.heading{
+    
+    margin-top: 120px;
+    color:black;
+    padding-left: 1020px;
+    
+    justify-content: space-between;
+    opacity: 0.8;
+
+    
+}
+
+span{
+    padding-left: 70px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+    width:82%;
+}
+.navdiv{
+    background-color:white;
+    height: 100px;
+    border: 4px solid black;
+    
+}
+.links{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 18px;
+}
+.linkitems{
+    display: inline-block;
+    margin:40px 20px;
+}
+.logo{
+    height: 70px;
+}
+.links:hover{
+    color: red;
+    font-size: 30px;
+}
+#home1{
+    margin-top: 700px;
+}
+.homeoffer1{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(15, 16, 82);
+}
+.home-about{
+    
+    color:black;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.home-img{
+    height: 400px;
+    padding-top: 100px;
+    width: 300px;
+    margin-left: 90px;
+}
+.heading{
+    font-size: 60px;
+    opacity: 0.5;
+    color: rgb(49, 27, 27);
+    
+}
+.home_hd{
+    font-size:22px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px; 
+     text-align: center;
+
+}
+.img1{
+    margin-top: -70px;
+    position: relative;
+    width: 1519px;
+}
+.homecontent{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+    margin-left: 900px;
+    margin-top: -300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 4px inset black;
+    
+    color: black;
+    width: 400px;
+    height: 200px;
+
+}
+.homeback{
+    background-color:lightgoldenrodyellow
+}
+
+
+.nea_piz{
+    margin-left: 520px;
+    margin-top: 50px;
+}
+.ita_piz{
+   
+    margin-left: 380px;
+    margin-top: -100px;
+}
+.terms{
+    height: 100px;
+    width: 200px;
+    border: 2px solid;
+    margin-left: 500px;
+    margin-top: 60px;
+    background-color:white;
+    color: red;
+    
+    
+}
+
+.term1{
+    
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.menu_hd{
+    font-size:22px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px; 
+    margin-top: 30px;
+    text-align: center;
+}
+.menuimg{
+    width:100% ;
+}
+.fig12{
+    margin-left: 40px;
+}
+
+
+.figcaption{
+    margin-left: 100px;
+    font-size: 20px;
+
+}
+.displayflex{
+    display: flex;
+    gap: 150px;
+   
+}
+.displayflex2{
+    display: flex;
+    gap: 150px;
+    margin-top: 50px;
+}
+.fig15{
+    margin-left: 40px;
+}
+.b2{
+    padding: 10px 40px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: rgb(95, 17, 30);
+    border:1px hidden;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: bisque;
+}
+
+
+
+.img12:hover img{ /* icon ne hower cheyumbo i(icon) color chng aavan */
+    color: white;
+    animation: shake 0.75s; /* animation of icon we use animation attribute o,75s is its time */
+}
+@keyframes shake{
+10%{
+    transform: rotate(15deg);
+}
+20%{
+    transform: rotate(-15deg);
+}
+30%{
+    transform: rotate(-15deg);
+}
+40%
+{
+    transform: rotate(15deg);
+}
+50%{
+    transform: rotate(-15deg);
+}
+60%
+{
+    transform: rotate(15deg);
+}
+
+}
+.aboutcontent4:hover img{
+    color: white;
+    animation: shake 0.75s; /* animation of icon we use animation attribute o,75s is its time */
+}
+@keyframes shake{
+10%{
+    transform: rotate(15deg);
+}
+20%{
+    transform: rotate(-15deg);
+}
+30%{
+    transform: rotate(-15deg);
+}
+40%
+{
+    transform: rotate(15deg);
+}
+
+}
+.b2:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+.about_hd{
+    font-size:22px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px; 
+    margin-top: 20px;
+    text-align: center; 
+    font-size: 30px;
+    color: rgba(90, 7, 7, 0.927);
+    font-weight: bolder;
+}
+.informations{
+    margin-top: 2rem;
+
+}
+.aboutimg1{
+    margin-left: 900px;
+    margin-top: -300px;
+}
+.aboutcontent5{
+    margin-left: 900px;
+    margin-top: -500px;
+    height: 250px;
+    width: 300.8px;
+    border: 3px solid;
+    padding: 20px;
+
+}
+.aboutcontent4{
+    margin-left: 250px;
+}
+.aboutcontent7{
+    margin-left: 350px;
+    margin-top: 250px;
+    height: 250px;
+    width: 300.8px;
+    border: 3px solid;
+    padding: 20px;
+
+}
+.aboutcontent8{
+    margin-left: 900px;
+    margin-top: -400px;
+}
+.aboutp{
+    justify-content: space-between;
+}
+
+
+
+
+.info-box{
+    margin-bottom: 1rem;
+    display: flex;
+}
+.info-box span{  /* space between icons and content like icon and name */
+    margin-left: 1rem;
+}
+.progress-bar{ /* [arent */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    align-items: center;
+    position: relative; /* we have set parent position as relative beacause there by only we can set child position absolute */
+
+}
+
+.base-bar{
+    width: 100%;
+    height:0.5rem ;
+   background-color:black ;
+   border-radius: 5rem;
+   position: absolute; /*here all are overlapping so we use bottom attribute  */
+   bottom: 0px;
+   left: 0px;
+
+}
+.html-bar{
+    background-color: brown;
+    width: 95%;
+    
+
+}
+.html2-bar{
+    background-color: brown;
+    width: 88%;
+
+}
+.html3-bar{
+    background-color: brown;
+    width: 89%;
+}
+.html4-bar{
+width: 85%;
+background-color: brown;
+}
+.icon-container {
+   
+    justify-content: center; /* horzontzl center */
+    display: flex;
+    align-content: center; /* vertical center */
+    margin-top: 3%;
+}
+.skill-container{
+    width: 600px;
+    margin-left: 100px;
+    
+    
+}
+
+.backgallery{
+    background-color: darkgray;
+}
+.galleryimg{
+    margin: 20px 10px;
+    height: 200px;
+    width: 350px;
+
+}
+
+
+.galleryimg:hover img{ /* icon ne hower cheyumbo i(icon) color chng aavan */
+    color: white;
+    animation: glow 0.75s; /* animation of icon we use animation attribute o,75s is its time */
+}
+@keyframes glow{
+10%{
+    transform: rotate(15deg);
+}
+20%{
+    transform: rotate(-15deg);
+}
+30%{
+    transform: rotate(-15deg);
+}
+40%
+{
+    transform: rotate(15deg);
+}
+}
+
+
+
+.footer{
+    margin: 4rem;
+    border: 4px solid black;
+    color: white;
+    background-color: black;
+
+}
+.up-arrow{
+    float: right;
+    background-image: linear-gradient(to bottom right, yellow, red);
+    margin:0px 10px 50px 0px ;
+    width: 50px;/* width and height must be same for circle border */
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */ 
+    justify-content: center; /* icon de border de center lu varan 3 items justify,display flex align items */
+    display: flex;
+    align-items: center;
+    margin: 0px 10px; 
+}
+.up-arrow:hover i{
+    color: white;
+}
+.informations{
+    margin-top: 2rem;
+
+}
+.info-box{
+    margin-bottom: 1rem;
+    display: flex;
+}
+.info-box span{  /* space between icons and content like icon and name */
+    margin-left: 1rem;
+}
+.contact2{
+    padding: 10px;
+    margin-left: 80px;
+    display: inline-flex;
+    color: black;
+}
+.contact2:hover{
+    color: darkslateblue;
+    animation: throw 1s;
+}
+@keyframes throw{
+
+    10%{
+        transform: rotateZ(3deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    30%
+    { 
+        transform: rotateZ(3deg);
+    }
+}
+.other-con{
+    margin-left: 20px ;
+    
+    
+}
+.privateimg{
+    width: 300px;
+    height: 300px;
+    padding-top: 15px;
+    padding-left: 25px;
+    position: center;
+    border-radius: 30%;
+    
+        
+    }
+    
+    .p-private{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+.private{
+    height:300px ;
+    width: 350px;
+    border-radius: 100;
+   
+       
+    
+}
+#private1{
+    margin: -300px 0px 0px 370px;
+    
+}
+#private2{
+    margin: -290px 0px 0px 740px;
+}
+#private3{
+    margin:-290px 0px 0px 1110px ;
+}
+.download{
+    background-color:rgb(95, 17, 30);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block; /* same line lu varan */
+    margin-top: 120px;
+    margin-left: 660px;
+    
+}
+.order{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+.orderb{
+    margin-top: 25px;
+    
+}
+.download:hover{
+    background-color: black;
+    font-size: 20px;
+}
+.order:hover{
+    background-color: rgb(95, 17, 30);
+    font-size: 20px;
+}
+
+
+
+.iconf{
+    padding-left: 650px;
+    display: inline-block;
+}
+.insta{
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.twitter{
+    margin-top: -48px;
+    margin-left: 100px;
+}
+.youtube{
+    margin-top: -48px;
+    margin-left:150px ;
+}
+.twitter:hover i{
+    color: rgb(59, 37, 202);
+    animation: throw 1s;
+}
+@keyframes throw{
+
+    10%{
+        transform: rotateZ(3deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    30%
+    { 
+        transform: rotateZ(3deg);
+    }
+}
+
+
+.youtube:hover i{
+    color: rgb(59, 38, 195);
+    animation: throw 1s;
+}
+@keyframes throw{
+
+    10%{
+        transform: rotateZ(3deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    30%
+    { 
+        transform: rotateZ(3deg);
+    }
+}
+.what:hover i{
+    color: rgb(51, 30, 183);
+    animation: throw 1s;
+}
+@keyframes throw{
+
+    10%{
+        transform: rotateZ(3deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    30%
+    { 
+        transform: rotateZ(3deg);
+    }
+}
+
+.insta:hover i{
+    color: rgb(36, 14, 176);
+    animation: throw 1s;
+}
+@keyframes throw{
+
+    10%{
+        transform: rotateZ(3deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    30%
+    { 
+        transform: rotateZ(3deg);
+    }
+}
+.review1{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 300px;
+    margin-left: 40px;
+    height: 400px;
+    margin-top: 50px;
+}
+.img15{
+    margin-left: 35px;
+    border-radius: 50%;
+}
+.cap1{
+    text-align: center;
+}
+.rating{
+   text-align: center;
+}
+.img16{
+    margin-left: 35px;
+    border-radius: 50%;
+}
+.review2{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 300px;
+     margin-left: 400px;
+    height: 400px;
+    margin-top: -380px;
+}
+.review3{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 300px;
+     margin-left: 800px;
+    height: 400px;
+    margin-top: -400px;
+}
+.review4{
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 300px;
+     margin-left: 1170px;
+    height: 400px;
+    margin-top: -400px;
+}
+
+
+
+
